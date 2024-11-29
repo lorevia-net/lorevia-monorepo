@@ -16,7 +16,7 @@ export default function Dinosaur({ params }: RouteParams) {
             const dino = await resp.json() as Dino;
             setDino(dino);
         })();
-    }, []);
+    }, [selectedDinosaur]);
     return (
         <main>
             {
