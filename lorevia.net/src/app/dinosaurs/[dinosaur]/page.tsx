@@ -2,7 +2,9 @@
 
 import { React, useEffect, useState } from "react";
 import { Dino } from "../../types.ts";
-import Link from "next/link";
+import NextLink from "next/link";
+
+const Link = NextLink.default;
 
 type RouteParams = { params: Promise<{ dinosaur: string }> };
 

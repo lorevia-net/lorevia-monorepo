@@ -1,4 +1,7 @@
 {
+    "tasks": {
+        "web:dev": "deno task --cwd lorevia.net dev"
+    },
     "workspace": [
         "./lorevia.net"
     ],

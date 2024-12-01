@@ -2,7 +2,9 @@
 
 import { React, useEffect, useState } from "react";
 import { Dino } from "../types.ts";
-import Link from "next/link";
+import NextLink from "next/link";
+
+const Link = NextLink.default;
 
 export default function Home() {
   const [dinosaurs, setDinosaurs] = useState<Dino[]>([]);
