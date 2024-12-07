@@ -1,9 +1,11 @@
 {
     "tasks": {
-        "web:dev": "deno task --cwd lorevia.net dev"
+        "web:dev": "deno task --cwd lorevia.net dev",
+        "desk:dev": "deno task --cwd lorevia.desktop tauri dev"
     },
     "workspace": [
-        "./lorevia.net"
+        "./lorevia.net",
+        "./lorevia.desktop"
     ],
     "nodeModulesDir": "auto"
 }
